@@ -1,0 +1,156 @@
+/*-- #2 #css #elements */
+    
+
+        /* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+        /*global styles */
+        * {
+            /* #2 #font #faces */
+            font-family: 'Arial', sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            /* #2 #colorful #background */
+            background-color: #F5F5F5;
+        }
+
+        h1,small {
+            /* #2 #colourful #app-bar */
+            background-color: #3F51B5;
+            color: white;
+            
+        }
+
+        button, strong {
+            /* #2 #colourful #plusfive */
+            /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+            /*background-color: #CDDC39;*/
+            color: black;
+            /* #2 #font capital #letters */
+            /* w3w location capital letter */
+            text-transform: uppercase;
+        }
+
+
+        /*styles for channel area*/
+        h2 {
+            /* #2 #colorful #channelandchat */
+            background-color: white;
+        }
+
+        /*styles for chat area*/
+        p {
+            /* #2 #colorful #channelandchat */
+            background-color: white;
+        }
+
+        
+
+        h3 {
+            /* #2 #font #metadata is now medium */
+            font-size: medium;
+        }
+
+        em {
+            /* #2 #font #remaining overrides the default italic appearance of em elements*/
+            font-size: larger;
+            font-style: normal;
+        }
+        a{
+            color:black;
+        }
+        
+        #tab-bar{
+            background-color: white;
+        }
+        #tab-bar button{
+           
+           background-color:white;
+           text-align: center;
+           font-size:13px;
+           height:72px;
+           margin:16px;
+           width: 30%;
+           border:none;
+                      
+        }
+        #tab-bar button.selected{
+            border-bottom:4px solid blue;
+        }
+        #tab-bar img{
+            margin:auto;
+            margin-bottom:4px;
+        }
+        
+        .message{
+
+          width: 80%;
+          margin-bottom: 8px;
+          font-size:medium;
+          background-color: white;
+          padding:16px;
+          margin-left:2.5%;
+            
+        }
+        .message button{
+        background-color: #CDDC39;
+        color:black;
+        text-transform: uppercase;
+
+        }
+        .message strong{
+        font-size: larger;
+        font-style: normal;
+        }
+        .message h3{
+         color:black;
+        }
+        
+        .own{
+          width: 80%;
+          margin-bottom: 8px;
+          font-size:medium;
+          background-color: white;
+          padding:16px;
+          margin-left:17.5%;
+        }
+        .own button{
+            background-color: #CDDC39;
+            color:black;
+            text-transform: uppercase;  
+        }
+        .own strong{
+            font-size: larger;
+            font-style: normal;
+            }
+        .own h3{
+             color:black;
+            }
+
+        ol{
+
+            list-style-type: none;
+            background-color: white;
+           
+        }
+            ol li{
+                font-size:inherit;
+                height:33px;
+                border-bottom:0.5px solid whitesmoke;
+                margin:12px;
+                
+            }
+    ol li.selected{
+        border-left:4px solid blue;
+        
+    }
